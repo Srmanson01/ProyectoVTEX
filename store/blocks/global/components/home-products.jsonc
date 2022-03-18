@@ -1,0 +1,87 @@
+{
+    ////// Featured Products row //////
+    "flex-layout.row#main-featured-products": {
+      "title": "Featured Products",
+      "children": ["flex-layout.col#main-featured-products"],
+      "props": {
+        "blockClass": "main-container"
+      }
+    },
+    ////// flex shop Container //////
+    "flex-layout.col#main-featured-products": {
+      "children": [
+        "flex-layout.row#featured-products",
+        "flex-layout.row#shelf"
+      ],
+      "props": {
+        "blockClass": "home-content"
+      }
+    },
+    ////// Featured Products //////
+    "flex-layout.row#featured-products": {
+      "children": ["rich-text#featured-products"],
+      "props": {
+        "blockClass": "featured-container"
+      }
+    },
+    "rich-text#featured-products": {
+      "title": "Featured text",
+      "props": {
+        "title": "titulo",
+        "text": "[## JUST IN](https://devsantiagol--vuitg.myvtex.com/apparel---accessories/)",
+        "textAlignment": "CENTER",
+         "textPosition": "CENTER",
+        "blockClass": "home-featured"
+      }
+    },
+
+
+
+    ////// Products //////
+    "flex-layout.row#shelf": {
+      "children": ["flex-layout.col#shelf"],
+      "props": {
+        "blockClass": "main-feature-products"
+      }
+    },
+    "flex-layout.col#shelf": {
+      "children": ["search-result-layout.customQuery#home"]
+    },
+
+    "search-result-layout.customQuery#home": {
+      "blocks": ["search-result-layout.desktop#home"],
+      "props": {
+        "querySchema": {
+          "orderByField": "OrderByReleaseDateDESC",
+          "maxItemsPerPage": 8,
+          "itemsPerPage": 4,
+          "simulationBehavior": "skip"
+        }
+      }
+    },
+    "search-result-layout.desktop#home": {
+      "children": ["flex-layout.row#results-home"],
+      "props": {
+        "preventRouteChange": true
+      }
+    },
+    "flex-layout.row#results-home": {
+      "children": ["flex-layout.col#search-home"]
+    },
+    "flex-layout.col#search-home": {
+      "children": ["search-content#home"]
+    },
+    "search-content#home": {
+      "blocks": ["gallery#home", "not-found"]
+    },
+    "gallery#home": {
+      "props": {
+        "maxItemsPerRow": {
+          "desktop": 6,
+          "tablet": 2,
+          "mobile": 2
+        }
+      },
+      "blocks": ["product-summary.shelf"]
+    }
+}

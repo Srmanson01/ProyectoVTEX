@@ -1,0 +1,97 @@
+{
+  "store.home": {
+    "blocks": [
+      "rich-text",
+      "image#example",
+      "list-context.image-list#demo",
+      "flex-layout.row#main-featured-products",
+      "flex-layout.row#main-featured-products2"
+      
+
+    ]
+  },
+  "image#example": {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+      "maxHeight": 123
+    }
+  },
+  //Carrousel img
+  "list-context.image-list#demo": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "height": 720,
+      "images": [
+        {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        },
+        {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": false,
+      "showNavigationArrows": false
+    }
+  
+  },
+  "slider-layout#product-shelf": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+  //Boton shop by categroy
+  "rich-text#new": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Visit our [Shop By Category ](https://developers.vtex.com/vtex-developer-docs/docs/welcome) section.\n**Be Bold!**\n*This is italic*",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "help-message"
+    }
+    
+
+    
+}
+    
+    
+  
+  
+     
+  
+
+
+
+         
+
+              
+  }
+
+
+
+
+  
+
+
+
+  
+  
+

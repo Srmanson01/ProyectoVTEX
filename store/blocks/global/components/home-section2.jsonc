@@ -1,0 +1,87 @@
+{
+    ////// Featured Products row //////
+    "flex-layout.row#main-featured-products2": {
+      "title": "Featured Products",
+      "children": ["flex-layout.col#main-featured-products2"],
+      "props": {
+        "blockClass": "main-container"
+      }
+    },
+    ////// flex shop Container //////
+    "flex-layout.col#main-featured-products2": {
+      "children": [
+        "flex-layout.row#featured-products2",
+        "flex-layout.row#shelf2"
+      ],
+      "props": {
+        "blockClass": "home-content"
+      }
+    },
+    ////// Featured Products //////
+    "flex-layout.row#featured-products2": {
+      "children": ["rich-text#featured-products2"],
+      "props": {
+        "blockClass": "featured-container"
+      }
+    },
+    "rich-text#featured-products2": {
+      "title": "Featured text",
+      "props": {
+        "title": "titulo",
+        "text": "## INICIO",
+        "textAlignment": "CENTER",
+         "textPosition": "CENTER",
+        "blockClass": "home-featured"
+      }
+    },
+
+
+
+    ////// Products //////
+    "flex-layout.row#shelf2": {
+      "children": ["flex-layout.col#shelf2"],
+      "props": {
+        "blockClass": "main-feature-products"
+      }
+    },
+    "flex-layout.col#shelf2": {
+      "children": ["search-result-layout.customQuery#home2"]
+    },
+
+    "search-result-layout.customQuery#home2": {
+      "blocks": ["search-result-layout.desktop#home2"],
+      "props": {
+        "querySchema": {
+          "orderByField": "OrderByReleaseDateDESC",
+          "maxItemsPerPage": 8,
+          "itemsPerPage": 4,
+          "simulationBehavior": "skip"
+        }
+      }
+    },
+    "search-result-layout.desktop#home2": {
+      "children": ["flex-layout.row#results-home2"],
+      "props": {
+        "preventRouteChange": true
+      }
+    },
+    "flex-layout.row#results-home2": {
+      "children": ["flex-layout.col#search-home2"]
+    },
+    "flex-layout.col#search-home2": {
+      "children": ["search-content#home2"]
+    },
+    "search-content#home2": {
+      "blocks": ["gallery#home", "not-found"]
+    },
+    "gallery#home2": {
+      "props": {
+        "maxItemsPerRow": {
+          "desktop": 6,
+          "tablet": 2,
+          "mobile": 2
+        }
+      },
+      "blocks": ["product-summary.shelf"]
+    }
+}
