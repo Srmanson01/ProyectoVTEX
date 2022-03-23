@@ -1,0 +1,52 @@
+
+
+.notifiactionContent {
+    background-color: darkmagenta;
+    transition: cubic-bezier(1);
+}
+
+.logoImage {
+    border-bottom-color :rgb(12, 12, 12);
+    border-bottom-style :none;
+    border-bottom-width :0px;
+    border-image-outset :0;
+    border-image-repeat :stretch;
+    border-image-slice :100%;
+    border-image-source: none;
+    border-image-width :1;
+    border-left-color :rgb(12, 12, 12);
+    border-left-style :none;
+    border-left-width :0px;
+    border-right-color: rgb(12, 12, 12);
+    border-right-style :none;
+    border-right-width: 0px;
+    border-top-color :rgb(12, 12, 12);
+    border-top-style :none;
+    border-top-width: 0px;
+    cursor :pointer;
+    display :block;
+    font-family: Helvetica, "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+    font-size :17.0427px;
+    font-weight :400;
+    height :52.1562px;
+    line-height :27.2683px;
+    opacity: 1;
+    text-decoration-thickness: auto;
+    text-size-adjust: 100%;
+    transition-delay :0s;
+    transition-duration: 0.2s;
+    transition-property: opacity;
+    transition-timing-function:cubic-bezier(0.52, 0.99, 0.61, -0.68);
+    width :315px;
+    -webkit-font-smoothing :antialiased;
+     margin: 0;
+    padding: 15px 0;
+    display: flex;
+
+    
+}
+
+.styleLinkContent {
+    font-size: 1.5em;
+    background-color:crimson;
+}

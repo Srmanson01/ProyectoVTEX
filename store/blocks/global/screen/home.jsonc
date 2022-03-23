@@ -5,6 +5,7 @@
       "image#example",
       "list-context.image-list#demo",
       "flex-layout.row#main-featured-products",
+      "rich-text#featured-products",
       "flex-layout.row#main-featured-products2"
       
 
@@ -72,16 +73,6 @@
     
 }
     
-    
-  
-  
-     
-  
-
-
-
-         
-
               
   }
 

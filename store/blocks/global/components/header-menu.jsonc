@@ -4,14 +4,15 @@
         "experimentalOptimizeRendering": true
       },
       "children": [
-        "menu-item#category-apparel",
-        "menu-item#category-home",
-        "menu-item#more"
+        "menu-item#category-blackmarket",
+        "menu-item#category-publicbutter",
+        "menu-item#new"
       ]
     },
-    "menu-item#category-apparel": {
+    //Blackmarket
+    "menu-item#category-blackmarket": {
       "props": {
-        "id": "menu-item-category-apparel",
+        "id": "menu-item#category-blackmarket",
         "type": "custom",
         "iconId": null,
         "highlight": false,
@@ -19,8 +20,8 @@
           "type": "internal",
           "href": "/apparel---accessories/",
           "noFollow": false,
-          "tagTitle": "Apparel & Accessories",
-          "text": "Apparel & Accessories"
+          "tagTitle": "Black Market",
+          "text": "Black Market"
         }
       },
       "blocks": [
@@ -35,9 +36,10 @@
         "vtex.menu@2.x:menu#category-apparel"
       ]
     },
+    //Despliegue categoria blackmarket
     "vtex.menu@2.x:menu#category-apparel": {
       "props": {
-        "orientation": "vertical"
+        "orientation": "frontal"
       },
       "children": [
         "menu-item#category-apparel-clothing",
@@ -45,6 +47,7 @@
         "menu-item#category-apparel-eyeglasses"
       ]
     },
+    //Hijos menu blackmarket
     "menu-item#category-apparel-clothing": {
       "props": {
         "id": "menu-item-category-apparel-clothing",
@@ -90,9 +93,11 @@
         }
       }
     },
-    "menu-item#category-home": {
+
+    //Publicbutter
+    "menu-item#category-publicbutter": {
       "props": {
-        "id": "menu-item-category-home",
+        "id": "menu-item-category-publicbutter",
         "type": "custom",
         "iconId": null,
         "highlight": false,
@@ -100,12 +105,12 @@
           "type": "internal",
           "href": "/home---decor/",
           "noFollow": false,
-          "tagTitle": "Home & Decor",
-          "text": "Home & Decor"
+          "tagTitle": "Public Butter",
+          "text": "Public Butter"
         }
       }
     },
-    "menu-item#more": {
+    "menu-item#new": {
       "props": {
         "id": "menu-item-custom-sale",
         "type": "custom",
@@ -115,8 +120,8 @@
           "type": "internal",
           "href": "#",
           "noFollow": true,
-          "tagTitle": "More",
-          "text": "More"
+          "tagTitle": "New For Spring",
+          "text": "New For Spring"
         }
       },
       "blocks": [
@@ -142,10 +147,10 @@
         "vtex.menu@2.x:menu#more"
       ]
     },
-    
+
     "vtex.menu@2.x:menu#more": {
       "props": {
-        "orientation": "vertical"
+        "orientation": "frontal"
       },
       "children": [
         "menu-item#about-us",
@@ -162,8 +167,9 @@
           "type": "internal",
           "href": "/about-us",
           "noFollow": true,
-          "tagTitle": "About us",
-          "text": "About us"
+          "tagTitle": "New For Spring",
+          "text": "New For Spring"
+
         }
       }
     },

@@ -1,0 +1,25 @@
+
+/*.FlexRowContent {
+
+    box-sizing :border-box;
+    display: flex;
+    flex-direction: column;
+    font-family :Fabriga, -apple-system, BlinkMacSystemFont, "avenir next", avenir ;
+    font-size :16px;
+    font-weight :400;
+    height :230.547px;
+    justify-content: center;
+    letter-spacing: normal;
+    line-height: 18.4px;
+    margin-left :0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-size-adjust :100%;
+    text-transform: none;
+   width :313.281px;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -webkit-box-pack: center;
+    -webkit-font-smoothing :antialiased;
+}*/

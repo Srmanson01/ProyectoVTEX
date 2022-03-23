@@ -28,15 +28,12 @@
       "title": "Featured text",
       "props": {
         "title": "titulo",
-        "text": "## INICIO",
+        "text": "## NEW FOR SPRING",
         "textAlignment": "CENTER",
          "textPosition": "CENTER",
         "blockClass": "home-featured"
       }
     },
-
-
-
     ////// Products //////
     "flex-layout.row#shelf2": {
       "children": ["flex-layout.col#shelf2"],

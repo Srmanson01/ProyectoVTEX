@@ -1,0 +1,20 @@
+.styledLinkContent {
+  box-sizing: border-box;
+  color:rgb(12, 12, 12);
+  cursor: pointer;
+  display: block;
+  font-family:Helvetica, 'Helvetica Neue', Arial, 'Lucida Grande', sans-serif;
+  font-size: 11.1392px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing:1px;
+  line-height: 17.8227;
+  text-decoration-thickness: auto;
+  text-size-adjust: 100%;
+  text-transform: uppercase;
+  white-space: nowrap;
+
+
+    
+}
+

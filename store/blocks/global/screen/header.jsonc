@@ -34,7 +34,6 @@
   "flex-layout.row#desktop-header-notification":{
     "children": ["flex-layout.row#2-desktop"]
   },
-
   "flex-layout.row#2-desktop": {
     "children": ["notification.bar#home"],
     "props": {
@@ -43,10 +42,9 @@
   },
   "notification.bar#home": {
     "props": {
-      "content": "SELECTED ITEMS ON SALE! CHECK IT OUT!"
+      "content": "ENJOY 30% OFF WHEN YOU BUY ANY THREE BLACK MARKET ITEMS AND SIGN UP FOUR OUR NEWSLETTER TO STAY UPDATED ON ALL OUR SPEACIAL DEALS & OFFERS!"
     }
   },
-  
   "flex-layout.col#spacer": {
     "props": {
       "width": "grow"
@@ -62,8 +60,8 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "assets/img/logo.png",
-      "width": "150"
+      "url": "https://cdn.shopify.com/s/files/1/0273/6285/2925/files/Black_Market_Vintage_Clothes_320x.png?v=1610563072",
+      "width": "100"
     }
   },
   "header-layout.mobile": {
