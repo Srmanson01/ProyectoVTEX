@@ -3,7 +3,7 @@
     "blocks": [
       "rich-text",
       "image#example",
-      "list-context.image-list#demo",
+      "iframe.dynamic-src",
       "flex-layout.row#main-featured-products",
       "rich-text#featured-products",
       "flex-layout.row#main-featured-products2"
@@ -15,23 +15,6 @@
     "props": {
       "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
       "maxHeight": 123
-    }
-  },
-  //Carrousel img
-  "list-context.image-list#demo": {
-    "children": ["slider-layout#demo-images"],
-    "props": {
-      "height": 720,
-      "images": [
-        {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
-        },
-        {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
-        }
-      ]
     }
   },
   "slider-layout#demo-images": {
@@ -46,6 +29,21 @@
     }
   
   },
+    //Iframe video
+    "store.custom#locationPage":{
+      "children":[
+        "iframe.dynamic-src"
+      ]
+    },
+    "iframe.dynamic-src":{
+      "props": {
+        "dynamicSrc": "https://www.youtube.com/embed/dzxbSK4VH40?cc_load_policy=0&iv_load_policy=0&modestbranding=1&playsinline=1&controls=0&showinfo=0&ecver=2&fs=0&rel=0&autoplay=1&enablejsapi=1&origin=https%3A%2F%2Fblackmarkettoronto.com&widgetid=1%22",
+        "width": "1690",
+        "height": "330",
+        "title": "exampleStaticPageName iframe wrapper for {account}",
+        "allow": "geolocation"
+      }
+    },
   "slider-layout#product-shelf": {
     "props": {
       "itemsPerPage": {
@@ -69,9 +67,11 @@
       "blockClass": "help-message"
     }
     
+    
 
     
 }
+
     
               
   }

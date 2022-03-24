@@ -33,22 +33,23 @@
         "width": "auto"
       },
       "children": [
-        "vtex.menu@2.x:menu#category-apparel"
+        "vtex.menu@2.x:menu#category-blackmarket"
       ]
     },
     //Despliegue categoria blackmarket
-    "vtex.menu@2.x:menu#category-apparel": {
+    "vtex.menu@2.x:menu#category-blackmarket": {
       "props": {
         "orientation": "frontal"
       },
       "children": [
-        "menu-item#category-apparel-clothing",
-        "menu-item#category-apparel-accessories",
-        "menu-item#category-apparel-eyeglasses"
+        "menu-item#category-blackmarket-clothing",
+        "menu-item#category-blackmarket-accessories",
+        "menu-item#category-blackmarket-eyeglasses"
+      
       ]
     },
     //Hijos menu blackmarket
-    "menu-item#category-apparel-clothing": {
+    "menu-item#category-blackmarket-clothing": {
       "props": {
         "id": "menu-item-category-apparel-clothing",
         "type": "custom",
@@ -63,7 +64,7 @@
         }
       }
     },
-    "menu-item#category-apparel-accessories": {
+    "menu-item#category-blackmarket-accessories": {
       "props": {
         "id": "menu-item-category-apparel-accessories",
         "type": "custom",
@@ -78,7 +79,7 @@
         }
       }
     },
-    "menu-item#category-apparel-eyeglasses": {
+    "menu-item#category-blackmarket-eyeglasses": {
       "props": {
         "id": "menu-item-category-apparel-eyeglasses",
         "type": "custom",
@@ -94,6 +95,10 @@
       }
     },
 
+
+
+
+    
     //Publicbutter
     "menu-item#category-publicbutter": {
       "props": {

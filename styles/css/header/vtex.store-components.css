@@ -46,7 +46,50 @@
     
 }
 
-.styleLinkContent {
-    font-size: 1.5em;
-    background-color:crimson;
+.notificationContent {
+    background-color: #c6dae5;
+ 
+  
 }
+
+
+    
+
+
+.notificationBarInner {
+    background-color: #c6dae5;
+     position: relative;
+    z-index: 5500;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    color: #070707;
+    cursor :pointer;
+    display: inline;
+    font-family :Helvetica, "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+    font-size :11.1392px;
+    font-style :normal;
+    font-weight :900;
+    height :auto;
+    line-height :30px;
+
+
+}
+
+    
+
+
+ 
+   
+
+
+
+
+
+
+
+
+
+   
+   

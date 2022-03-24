@@ -50,7 +50,7 @@
       "props": {
         "querySchema": {
           "orderByField": "OrderByReleaseDateDESC",
-          "maxItemsPerPage": 8,
+          "maxItemsPerPage": 16,
           "itemsPerPage": 4,
           "simulationBehavior": "skip"
         }

@@ -28,7 +28,7 @@
       "title": "Featured text",
       "props": {
         "title": "titulo",
-        "text": "[## JUST IN](https://devsantiagol--vuitg.myvtex.com/apparel---accessories/)",
+        "text": "## JUST IN",
         "textAlignment": "CENTER",
          "textPosition": "CENTER",
         "blockClass": "home-featured"
@@ -53,7 +53,7 @@
       "props": {
         "querySchema": {
           "orderByField": "OrderByReleaseDateDESC",
-          "maxItemsPerPage": 8,
+          "maxItemsPerPage": 16,
           "itemsPerPage": 4,
           "simulationBehavior": "skip"
         }
