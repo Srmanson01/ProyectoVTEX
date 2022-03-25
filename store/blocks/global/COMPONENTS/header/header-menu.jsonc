@@ -1,0 +1,337 @@
+{
+    "vtex.menu@2.x:menu#category-menu": {
+      "props": {
+        "experimentalOptimizeRendering": true
+      },
+      "children": [
+        "menu-item#category-blackmarket",
+        "menu-item#category-publicbutter",
+        "menu-item#new"
+      ]
+    },
+
+
+
+
+
+    //Blackmarket
+    "menu-item#category-blackmarket": {
+      "props": {
+        "id": "menu-item#category-blackmarket",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/apparel---accessories/",
+          "noFollow": false,
+          "tagTitle": "Black Market",
+          "text": "Black Market"
+        }
+      },
+      "blocks": [
+        "vtex.menu@2.x:submenu#category-apparel"
+      ]
+    },
+    "vtex.menu@2.x:submenu#category-apparel": {
+      "props": {
+        "width": "auto"
+      },
+      "children": [
+        "vtex.menu@2.x:menu#category-blackmarket"
+      ]
+    },
+    //Despliegue categoria blackmarket
+    "vtex.menu@2.x:menu#category-blackmarket": {
+      "props": {
+        "orientation": "frontal"
+      },
+      "children": [
+        "menu-item#women's",
+        "menu-item#men's",
+        "menu-item#unisex",
+        "menu-item#accesories"
+      
+      ]
+    },
+    //Hijos menu blackmarket
+    "menu-item#women's": {
+      "props": {
+        "id": "menu-item-women's",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/apparel---accessories/clothing/",
+          "noFollow": false,
+          "tagTitle": "women's",
+          "text": "women's"
+        }
+      },
+      "children": ["t-shirts"]
+    },
+    "menu-item#men's": {
+      "props": {
+        "id": "menu-item-men's",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/apparel---accessories/accessories/",
+          "noFollow": false,
+          "tagTitle": "men's",
+          "text": "men's"
+        }
+      }
+    },
+    "menu-item#unisex": {
+      "props": {
+        "id": "menu-item-unisex",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/apparel---accessories/eyeglasses/",
+          "noFollow": false,
+          "tagTitle": "unisex",
+          "text": "unisex"
+        }
+      }
+    },
+    "menu-item#accesories": {
+      "props": {
+        "id": "menu-item-accesories",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/apparel---accessories/eyeglasses/",
+          "noFollow": false,
+          "tagTitle": "accessories",
+          "text": "accessories"
+        }
+      }
+    },
+
+//Children women's
+"t-shirts" :{
+  "props": {
+    "id": "women's-item-tshirt",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/apparel---accessories/accessories/",
+      "noFollow": false,
+      "tagTitle": "t-shirts",
+      "text": "tshirts"
+    }
+  }
+},
+
+
+
+
+
+    
+    //Publicbutter
+    "menu-item#category-publicbutter": {
+      "props": {
+        "id": "menu-item#category-publicbutter",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/apparel---accessories/",
+          "noFollow": false,
+          "tagTitle": "public butter",
+          "text": "public butter"
+        }
+      },
+      "blocks": [
+        "vtex.menu@2.x:submenu#category-publicbutter"
+      ]
+    },
+    "vtex.menu@2.x:submenu#category-publicbutter": {
+      "props": {
+        "width": "auto"
+      },
+      "children": [
+        "vtex.menu@2.x:menu#category-publicbutter"
+      ]
+    },
+    //Despliegue categoria publicbutter
+    "vtex.menu@2.x:menu#category-publicbutter": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "menu-item#collectoritems",
+        "menu-item#bottoms",
+        "menu-item#tops",
+        "menu-item#tshirts",
+        "menu-item#deadstocks",
+        "menu-item#kids"
+      
+      ]
+    },
+    //Hijos menu publicbutter
+    "menu-item#collectoritems": {
+      "props": {
+        "id": "menu-item-collectoritems",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/apparel---accessories/clothing/",
+          "noFollow": false,
+          "tagTitle": "collector items",
+          "text": "collector items"
+        }
+      }
+    },
+    "menu-item#bottoms": {
+      "props": {
+        "id": "menu-item-bottoms",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/apparel---accessories/accessories/",
+          "noFollow": false,
+          "tagTitle": "bottoms",
+          "text": "bottoms"
+        }
+      }
+    },
+    "menu-item#tops": {
+      "props": {
+        "id": "menu-item-tops",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/apparel---accessories/eyeglasses/",
+          "noFollow": false,
+          "tagTitle": "tops",
+          "text": "tops"
+        }
+      }
+    },
+    "menu-item#tshirts": {
+      "props": {
+        "id": "menu-item-tshirts",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/apparel---accessories/eyeglasses/",
+          "noFollow": false,
+          "tagTitle": "t-shirts",
+          "text": "t-shirts"
+        }
+      }
+    },
+    "menu-item#deadstocks": {
+      "props": {
+        "id": "menu-item-deadstocks",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/apparel---accessories/eyeglasses/",
+          "noFollow": false,
+          "tagTitle": "deadstocks",
+          "text": "deadstocks"
+        }
+      }
+    },
+    "menu-item#kids": {
+      "props": {
+        "id": "menu-item-kids",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/apparel---accessories/eyeglasses/",
+          "noFollow": false,
+          "tagTitle": "kids",
+          "text": "kids"
+        }
+      }
+    },
+
+
+//New for spring
+    "menu-item#new": {
+      "props": {
+        "id": "menu-item-custom-sale",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": true,
+          "tagTitle": "New For Spring",
+          "text": "New For Spring"
+        }
+      },
+      "blocks": [
+        "vtex.menu@2.x:submenu#more"
+      ]
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   /* "vtex.menu@2.x:submenu#more": {
+      "props": {
+        "width": "100%"
+      },
+      "children": [
+        "flex-layout.row#menu-more"
+      ]
+    },
+    "flex-layout.row#menu-more": {
+      "children": [
+        "flex-layout.col#menu-more-1"
+    
+      ]
+    },
+    "flex-layout.col#menu-more-1": {
+      "children": [
+        "vtex.menu@2.x:menu#more"
+      ]
+    }*/
+
+  }

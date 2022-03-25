@@ -28,10 +28,20 @@
       "title": "Featured text",
       "props": {
         "title": "titulo",
-        "text": "## JUST IN",
+        "text": "[VIEW ALL](https://blackmarkettoronto.com)",
         "textAlignment": "CENTER",
          "textPosition": "CENTER",
-        "blockClass": "home-featured"
+        "blockClass": "text-deal"
+      }
+    },
+    "rich-text#featured-products-secundary":{
+      "title": "Featured text",
+      "props": {
+        "title": "titulo",
+        "text": "[SHOP ALL PRODUCTS](https://blackmarkettoronto.com)",
+        "textAlignment": "CENTER",
+         "textPosition": "CENTER",
+        "blockClass": "boton-primary"
       }
     },
 
@@ -47,7 +57,6 @@
     "flex-layout.col#shelf": {
       "children": ["search-result-layout.customQuery#home"]
     },
-
     "search-result-layout.customQuery#home": {
       "blocks": ["search-result-layout.desktop#home"],
       "props": {

@@ -2,7 +2,8 @@
   "store.home": {
     "blocks": [
       "rich-text",
-      "image#example",
+
+      "rich-text#featured-products-secundary",
       "iframe.dynamic-src",
       "flex-layout.row#main-featured-products",
       "rich-text#featured-products",
@@ -10,12 +11,6 @@
       
 
     ]
-  },
-  "image#example": {
-    "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
-      "maxHeight": 123
-    }
   },
   "slider-layout#demo-images": {
     "props": {
