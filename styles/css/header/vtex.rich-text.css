@@ -1,6 +1,11 @@
 .paragraph--boton-primary{
     background-color: rgb(24, 24, 24);
-    padding: 1.6rem 1.4rem;
+    padding: 1.1rem 1.6rem;
+    font-size:12px;
+    font-weight: bold;
+    font-family:Helvetica, 'Helvetica Neue', Arial, 'Lucida Grande', sans-serif;
+    margin-bottom:40px;
+    
 
     
 
@@ -15,11 +20,6 @@
     font-Family:Helvetica, 'Helvetica Neue', Arial, 'Lucida Grande', sans-serif;
      font-weight: var(---font-weight-accent-bold);
     
-
-
- 
-
-   
 }
 
 

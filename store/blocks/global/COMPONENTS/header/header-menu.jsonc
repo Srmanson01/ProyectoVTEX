@@ -6,13 +6,13 @@
       "children": [
         "menu-item#category-blackmarket",
         "menu-item#category-publicbutter",
-        "menu-item#new"
+        "menu-item#new",
+        "menu-item#wholesale",
+        "menu-item#blog",
+        "vtex.menu@2.x:submenu#more"
+        
       ]
     },
-
-
-
-
 
     //Blackmarket
     "menu-item#category-blackmarket": {
@@ -69,7 +69,23 @@
           "text": "women's"
         }
       },
-      "children": ["t-shirts"]
+      "children": [
+        "vtex.menu@2.x:menu#category-Women's"
+      ]
+    },
+    "vtex.menu@2.x:menu#category-Women's": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "menu-item#collectoritems",
+        "menu-item#bottoms",
+        "menu-item#tops",
+        "menu-item#tshirts",
+        "menu-item#deadstocks",
+        "menu-item#kids"
+      
+      ]
     },
     "menu-item#men's": {
       "props": {
@@ -84,7 +100,24 @@
           "tagTitle": "men's",
           "text": "men's"
         }
-      }
+      },
+      "children": [
+        "vtex.menu@2.x:menu#category-men's"
+      ]
+    },
+    "vtex.menu@2.x:menu#category-men's": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "menu-item#collectoritems",
+        "menu-item#bottoms",
+        "menu-item#tops",
+        "menu-item#tshirts",
+        "menu-item#deadstocks",
+        "menu-item#kids"
+      
+      ]
     },
     "menu-item#unisex": {
       "props": {
@@ -99,7 +132,24 @@
           "tagTitle": "unisex",
           "text": "unisex"
         }
-      }
+      },
+      "children": [
+        "vtex.menu@2.x:menu#category-unisex"
+      ]
+    },
+    "vtex.menu@2.x:menu#category-unisex": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "menu-item#collectoritems",
+        "menu-item#bottoms",
+        "menu-item#tops",
+        "menu-item#tshirts",
+        "menu-item#deadstocks",
+        "menu-item#kids"
+      
+      ]
     },
     "menu-item#accesories": {
       "props": {
@@ -114,28 +164,26 @@
           "tagTitle": "accessories",
           "text": "accessories"
         }
-      }
+      },
+      "children": [
+        "vtex.menu@2.x:menu#category-accesories"
+      ]
     },
-
-//Children women's
-"t-shirts" :{
-  "props": {
-    "id": "women's-item-tshirt",
-    "type": "custom",
-    "iconId": null,
-    "highlight": false,
-    "itemProps": {
-      "type": "internal",
-      "href": "/apparel---accessories/accessories/",
-      "noFollow": false,
-      "tagTitle": "t-shirts",
-      "text": "tshirts"
-    }
-  }
-},
-
-
-
+    "vtex.menu@2.x:menu#category-accesories": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "menu-item#collectoritems",
+        "menu-item#bottoms",
+        "menu-item#tops",
+        "menu-item#tshirts",
+        "menu-item#deadstocks",
+        "menu-item#kids"
+      
+      ]
+    },
+    
 
 
     
@@ -237,8 +285,8 @@
           "type": "internal",
           "href": "/apparel---accessories/eyeglasses/",
           "noFollow": false,
-          "tagTitle": "t-shirts",
-          "text": "t-shirts"
+          "tagTitle": "tshirts",
+          "text": "tshirts"
         }
       }
     },
@@ -274,7 +322,7 @@
     },
 
 
-//New for spring
+    //New for spring
     "menu-item#new": {
       "props": {
         "id": "menu-item-custom-sale",
@@ -288,11 +336,43 @@
           "tagTitle": "New For Spring",
           "text": "New For Spring"
         }
-      },
-      "blocks": [
-        "vtex.menu@2.x:submenu#more"
-      ]
-    }
+      }
+    },
+    //Wholesale
+    "menu-item#wholesale": {
+      "props": {
+        "id": "menu-item-custom-sale",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": true,
+          "tagTitle": "wholesale",
+          "text": "wholesale"
+        }
+      }
+    },
+    //Blog
+    "menu-item#blog": {
+      "props": {
+        "id": "menu-item-custom-sale",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": true,
+          "tagTitle": "blog",
+          "text": "blog"
+        }
+      }
+    },
+
+      
+  
 
 
 
@@ -314,7 +394,8 @@
 
 
 
-   /* "vtex.menu@2.x:submenu#more": {
+
+    "vtex.menu@2.x:submenu#more": {
       "props": {
         "width": "100%"
       },
@@ -332,6 +413,5 @@
       "children": [
         "vtex.menu@2.x:menu#more"
       ]
-    }*/
-
+    }
   }

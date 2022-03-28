@@ -8,6 +8,7 @@
       "flex-layout.row#main-featured-products",
       "rich-text#featured-products",
       "flex-layout.row#main-featured-products2"
+
       
 
     ]
@@ -61,15 +62,11 @@
       "font": "t-heading-5",
       "blockClass": "help-message"
     }
-    
-    
-
-    
-}
-
+   
     
               
   }
+}
 
 
 

@@ -27,7 +27,7 @@
     "children": [
      "flex-layout.col#logo-desktop" ,
       "vtex.menu@2.x:menu#category-menu",
-      "search-bar",
+      "store-search",
        "minicart.v2"
     ]
   },
@@ -89,3 +89,4 @@
     "children": []
   }
 }
+  
