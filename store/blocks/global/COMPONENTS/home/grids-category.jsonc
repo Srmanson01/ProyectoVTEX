@@ -1,0 +1,15 @@
+{
+
+
+"info-card": {
+    "props": {
+     "id": "info-card-example",
+     "isFullModeStyle": true,
+     "textPosition": "left",
+     "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+     "subhead":"prueba",
+     "blockClass": "info-card-example"
+    }
+  
+   }
+}

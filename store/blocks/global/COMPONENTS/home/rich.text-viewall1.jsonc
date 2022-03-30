@@ -1,0 +1,15 @@
+
+{
+  
+    "rich-text#viewall1":{
+      "title": "Featured text",
+      "props": {
+        "title": "titulo",
+        "text": "[VIEW ALL](https://blackmarkettoronto.com)",
+        "textAlignment": "CENTER",
+         "textPosition": "CENTER",
+        "blockClass": "boton-primary"
+        }
+      }
+    }
+    

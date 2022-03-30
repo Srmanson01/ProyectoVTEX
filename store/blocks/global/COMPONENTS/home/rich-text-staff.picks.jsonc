@@ -1,0 +1,14 @@
+
+{
+  
+ "rich-text#staff-picks": {
+  "title": "Featured text",
+  "props": {
+    "title": "titulo",
+    "text": "## STAFF PICKS",
+    "textAlignment": "CENTER",
+     "textPosition": "CENTER",
+    "blockClass": "home-featured"
+    }
+  }
+}

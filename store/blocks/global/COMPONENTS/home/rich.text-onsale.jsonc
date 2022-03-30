@@ -1,0 +1,14 @@
+
+      {
+  
+        "rich-text#onsale": {
+         "title": "Featured text",
+         "props": {
+           "title": "titulo",
+           "text": "## ON SALE",
+           "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+           "blockClass": "home-featured"
+           }
+         }
+       }

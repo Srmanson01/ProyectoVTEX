@@ -1,0 +1,13 @@
+{
+  
+    "rich-text#followus": {
+     "title": "Featured text",
+     "props": {
+       "title": "titulo",
+       "text": "## FOLLOW US ON INSTAGRAM",
+       "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+       "blockClass": "home-featured"
+       }
+     }
+   }

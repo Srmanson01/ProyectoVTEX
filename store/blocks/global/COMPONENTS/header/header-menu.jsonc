@@ -9,7 +9,7 @@
         "menu-item#new",
         "menu-item#wholesale",
         "menu-item#blog",
-        "vtex.menu@2.x:submenu#more"
+        "minicart-product-list"
         
       ]
     },
@@ -369,7 +369,8 @@
           "text": "blog"
         }
       }
-    },
+    }
+
 
       
   
@@ -394,7 +395,7 @@
 
 
 
-
+/*
     "vtex.menu@2.x:submenu#more": {
       "props": {
         "width": "100%"
@@ -413,5 +414,6 @@
       "children": [
         "vtex.menu@2.x:menu#more"
       ]
-    }
+    }*/
   }
+  

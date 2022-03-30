@@ -1,0 +1,22 @@
+{
+  
+  
+
+  "rich-text#shopbycategory": {
+    "title": "Featured text",
+    "props": {
+      "title": "titulo",
+      "text": "## SHOP BY CATEGORY",
+      "textAlignment": "CENTER",
+       "textPosition": "CENTER",
+      "blockClass": "home-featured"
+      }
+    }
+  }
+  
+
+
+   
+    
+              
+  

@@ -6,8 +6,22 @@
       "rich-text#featured-products-secundary",
       "iframe.dynamic-src",
       "flex-layout.row#main-featured-products",
-      "rich-text#featured-products",
-      "flex-layout.row#main-featured-products2"
+      "rich-text#viewall1",
+      "flex-layout.row#main-featured-products2",
+      "rich-text#shopbycategory",
+      "info-card",
+      "rich-text#onsale",
+      "flex-layout.row#main-featured-products3",
+      "rich-text#viewall1",
+      "rich-text#staff-picks",
+      "flex-layout.row#main-featured-products4",
+      "rich-text#viewall1",
+      "rich-text#followus",
+      "rich-text#followers",
+      "rich-text#viewall1"
+ 
+      
+
 
       
 
@@ -24,48 +38,8 @@
       "showNavigationArrows": false
     }
   
-  },
-    //Iframe video
-    "store.custom#locationPage":{
-      "children":[
-        "iframe.dynamic-src"
-      ]
-    },
-    "iframe.dynamic-src":{
-      "props": {
-        "dynamicSrc": "https://www.youtube.com/embed/dzxbSK4VH40?cc_load_policy=0&iv_load_policy=0&modestbranding=1&playsinline=1&controls=0&showinfo=0&ecver=2&fs=0&rel=0&autoplay=1&enablejsapi=1&origin=https%3A%2F%2Fblackmarkettoronto.com&widgetid=1%22",
-        "width": "1690",
-        "height": "330",
-        "title": "exampleStaticPageName iframe wrapper for {account}",
-        "allow": "geolocation"
-      }
-    },
-  "slider-layout#product-shelf": {
-    "props": {
-      "itemsPerPage": {
-        "desktop": 5,
-        "tablet": 3,
-        "phone": 1
-      },
-      "infinite": true,
-      "fullWidth": false,
-      "blockClass": "shelf"
-    }
-  },
-  //Boton shop by categroy
-  "rich-text#new": {
-    "props": {
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "text": "Visit our [Shop By Category ](https://developers.vtex.com/vtex-developer-docs/docs/welcome) section.\n**Be Bold!**\n*This is italic*",
-      "textColor": "c-on-emphasis",
-      "font": "t-heading-5",
-      "blockClass": "help-message"
-    }
-   
-    
-              
   }
+    
 }
 
 

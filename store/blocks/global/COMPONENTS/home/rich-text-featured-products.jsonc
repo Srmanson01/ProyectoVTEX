@@ -1,0 +1,14 @@
+{
+ 
+
+    "rich-text#featured-products": {
+      "title": "Featured text",
+      "props": {
+        "title": "titulo",
+        "text": "## JUST IN",
+        "textAlignment": "CENTER",
+         "textPosition": "CENTER",
+        "blockClass": "home-featured"
+        }
+    }
+}
