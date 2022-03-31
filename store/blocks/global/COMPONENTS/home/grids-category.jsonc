@@ -1,14 +1,131 @@
-{
+{   
+"flex-layout.row#cards-container" : {
+        "children" : ["flex-layout.col#cards-content"]
+},
 
+"flex-layout.col#cards-content" : {
+        "children" : ["flex-layout.row#info-card1","flex-layout.row#info-card2"]
+},
 
-"info-card": {
+"flex-layout.row#info-card1" : {
+    "children" : ["flex-layout.col#info-card1","flex-layout.col#info-card2","flex-layout.col#info-card3"]
+},
+
+"flex-layout.col#info-card1": {
+    "children" : ["info-card#card1"],
+    "props" : {
+        "marginRight" : 5
+    }
+},
+
+"info-card#card1": {
     "props": {
-     "id": "info-card-example",
+     "id": "info-card",
      "isFullModeStyle": true,
-     "textPosition": "left",
+     "textPosition": "center",
      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
      "subhead":"prueba",
-     "blockClass": "info-card-example"
+     "blockClass": "info-card-departament-variante",
+     "callToActionMode": "none"
+    }
+  
+},
+"flex-layout.col#info-card2": {
+    "children" : ["info-card#card2"],
+    "props" : {
+        "marginRight" : 5,
+        "marginLeft" : 5
+    }
+},
+"info-card#card2": {
+    "props": {
+     "id": "info-card",
+     "isFullModeStyle": true,
+     "textPosition": "center",
+     "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+     "subhead":"prueba",
+     "blockClass": "info-card-departament",
+     "callToActionMode": "none"
+    }
+  
+   },
+"flex-layout.col#info-card3": {
+    "children" : ["info-card#card3"],
+    "props" : {
+        "marginLeft" : 5
+    }
+},
+"info-card#card3": {
+    "props": {
+     "id": "info-card",
+     "isFullModeStyle": true,
+     "textPosition": "center",
+     "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+     "subhead":"prueba",
+     "blockClass": "info-card-departament",
+     "callToActionMode": "none"
+    }
+  
+   },
+
+
+
+//Cart 2
+   "flex-layout.row#info-card2" : {
+    "children" : ["flex-layout.col#info2-card1","flex-layout.col#info2-card2","flex-layout.col#info2-card3"]
+},
+"flex-layout.col#info2-card1": {
+    "children" : ["info-card#card2-1"],
+    "props" : {
+        "marginRight" : 5
+    }
+},
+"info-card#card2-1": {
+    "props": {
+     "id": "info-card",
+     "isFullModeStyle": true,
+     "textPosition": "center",
+     "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+     "subhead":"prueba",
+     "blockClass": "info-card-departament-variante",
+     "callToActionMode": "none"
+    }
+  
+},
+"flex-layout.col#info2-card2": {
+    "children" : ["info-card#card2-2"],
+    "props" : {
+        "marginRight" : 5,
+        "marginLeft" : 5
+    }
+},
+"info-card#card2-2": {
+    "props": {
+     "id": "info-card",
+     "isFullModeStyle": true,
+     "textPosition": "center",
+     "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+     "subhead":"prueba",
+     "blockClass": "info-card-departament",
+     "callToActionMode": "none"
+    }
+  
+},
+"flex-layout.col#info2-card3": {
+    "children" : ["info-card#card2-3"],
+    "props" : {
+        "marginLeft" : 5
+    }
+},
+"info-card#card2-3": {
+    "props": {
+     "id": "info-card",
+     "isFullModeStyle": true,
+     "textPosition": "center",
+     "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+     "subhead":"prueba",
+     "blockClass": "info-card-departament",
+     "callToActionMode": "none"
     }
   
    }

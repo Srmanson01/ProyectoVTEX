@@ -9,7 +9,7 @@
       "rich-text#viewall1",
       "flex-layout.row#main-featured-products2",
       "rich-text#shopbycategory",
-      "info-card",
+      "flex-layout.row#cards-container",
       "rich-text#onsale",
       "flex-layout.row#main-featured-products3",
       "rich-text#viewall1",
@@ -18,7 +18,12 @@
       "rich-text#viewall1",
       "rich-text#followus",
       "rich-text#followers",
-      "rich-text#viewall1"
+      "flex-layout.row#main-featured-banner",
+      "rich-text#followus2",
+      "rich-text#followers2",
+      "flex-layout.row#main-featured-banner2",
+      "list-context.image-list#demostracion"
+      
  
       
 

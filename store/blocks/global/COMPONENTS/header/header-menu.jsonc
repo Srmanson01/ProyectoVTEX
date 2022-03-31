@@ -23,7 +23,7 @@
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "/apparel---accessories/",
+          "href": "/men",
           "noFollow": false,
           "tagTitle": "Black Market",
           "text": "Black Market"
@@ -55,6 +55,9 @@
       ]
     },
     //Hijos menu blackmarket
+
+
+    //REDIRECCION MUJER
     "menu-item#women's": {
       "props": {
         "id": "menu-item-women's",
@@ -63,7 +66,7 @@
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "/apparel---accessories/clothing/",
+          "href": "/category/mujer/americana",
           "noFollow": false,
           "tagTitle": "women's",
           "text": "women's"
@@ -78,15 +81,112 @@
         "orientation": "vertical"
       },
       "children": [
-        "menu-item#collectoritems",
-        "menu-item#bottoms",
-        "menu-item#tops",
-        "menu-item#tshirts",
-        "menu-item#deadstocks",
-        "menu-item#kids"
+        "menu-item#collectoritems1",
+        "menu-item#bottoms1",
+        "menu-item#tops1",
+        "menu-item#tshirts1",
+        "menu-item#deadstocks1",
+        "menu-item#kids1"
       
       ]
     },
+    "menu-item#collectoritems1": {
+      "props": {
+        "id": "menu-item-collectoritems",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/apparel---accessories/clothing/",
+          "noFollow": false,
+          "tagTitle": "collector items",
+          "text": "collector items"
+        }
+      }
+    },
+    "menu-item#bottoms1": {
+      "props": {
+        "id": "menu-item-bottoms",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/apparel---accessories/accessories/",
+          "noFollow": false,
+          "tagTitle": "bottoms",
+          "text": "bottoms"
+        }
+      }
+    },
+    "menu-item#tops1": {
+      "props": {
+        "id": "menu-item-tops",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/apparel---accessories/eyeglasses/",
+          "noFollow": false,
+          "tagTitle": "tops",
+          "text": "tops"
+        }
+      }
+    },
+    "menu-item#tshirts1": {
+      "props": {
+        "id": "menu-item-tshirts",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/apparel---accessories/eyeglasses/",
+          "noFollow": false,
+          "tagTitle": "tshirts",
+          "text": "tshirts"
+        }
+      }
+    },
+    "menu-item#deadstocks1": {
+      "props": {
+        "id": "menu-item-deadstocks",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/apparel---accessories/eyeglasses/",
+          "noFollow": false,
+          "tagTitle": "deadstocks",
+          "text": "deadstocks"
+        }
+      }
+    },
+    "menu-item#kids1": {
+      "props": {
+        "id": "menu-item-kids",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/apparel---accessories/eyeglasses/",
+          "noFollow": false,
+          "tagTitle": "kids",
+          "text": "kids"
+        }
+      }
+    },
+   
+    
+    
+
+
+
+    //REDIRECCI0N HOMBRE
     "menu-item#men's": {
       "props": {
         "id": "menu-item-men's",
@@ -95,7 +195,7 @@
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "/apparel---accessories/accessories/",
+          "href": "/category/hombre",
           "noFollow": false,
           "tagTitle": "men's",
           "text": "men's"
@@ -110,15 +210,119 @@
         "orientation": "vertical"
       },
       "children": [
-        "menu-item#collectoritems",
-        "menu-item#bottoms",
-        "menu-item#tops",
-        "menu-item#tshirts",
-        "menu-item#deadstocks",
-        "menu-item#kids"
+        "menu-item#collectoritems2",
+        "menu-item#bottoms2",
+        "menu-item#tops2",
+        "menu-item#tshirts2",
+        "menu-item#deadstocks2",
+        "menu-item#kids2"
       
       ]
     },
+    "menu-item#collectoritems2": {
+      "props": {
+        "id": "menu-item-collectoritems",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/apparel---accessories/clothing/",
+          "noFollow": false,
+          "tagTitle": "collector items",
+          "text": "collector items"
+        }
+      }
+    },
+    "menu-item#bottoms2": {
+      "props": {
+        "id": "menu-item-bottoms",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/apparel---accessories/accessories/",
+          "noFollow": false,
+          "tagTitle": "bottoms",
+          "text": "bottoms"
+        }
+      }
+    },
+    "menu-item#tops2": {
+      "props": {
+        "id": "menu-item-tops",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/apparel---accessories/eyeglasses/",
+          "noFollow": false,
+          "tagTitle": "tops",
+          "text": "tops"
+        }
+      }
+    },
+    "menu-item#tshirts2": {
+      "props": {
+        "id": "menu-item-tshirts",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/apparel---accessories/eyeglasses/",
+          "noFollow": false,
+          "tagTitle": "tshirts",
+          "text": "tshirts"
+        }
+      }
+    },
+    "menu-item#deadstocks2": {
+      "props": {
+        "id": "menu-item-deadstocks",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/apparel---accessories/eyeglasses/",
+          "noFollow": false,
+          "tagTitle": "deadstocks",
+          "text": "deadstocks"
+        }
+      }
+    },
+    "menu-item#kids2": {
+      "props": {
+        "id": "menu-item-kids",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/apparel---accessories/eyeglasses/",
+          "noFollow": false,
+          "tagTitle": "kids",
+          "text": "kids"
+        }
+      }
+    },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    //UNISEX
+    
     "menu-item#unisex": {
       "props": {
         "id": "menu-item-unisex",
@@ -127,7 +331,7 @@
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "/apparel---accessories/eyeglasses/",
+          "href": "/",
           "noFollow": false,
           "tagTitle": "unisex",
           "text": "unisex"
@@ -151,6 +355,8 @@
       
       ]
     },
+
+    //ACCESORIES
     "menu-item#accesories": {
       "props": {
         "id": "menu-item-accesories",
@@ -159,7 +365,7 @@
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "/apparel---accessories/eyeglasses/",
+          "href": "/Bebé",
           "noFollow": false,
           "tagTitle": "accessories",
           "text": "accessories"

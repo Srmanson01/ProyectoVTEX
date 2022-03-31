@@ -1,0 +1,29 @@
+.container {
+    padding-right: 0;
+    padding-left: 0;
+    max-width: 1180px;
+    padding: 0 24px;
+}
+
+
+.infoCardContainer--info-card-departament{
+    height:245px;
+
+}
+
+.infoCardContainer--info-card-departament-variante{
+    height:245px;
+
+}
+
+.infoCardSubhead--info-card-departament {
+    color: #fff;
+    font-size: 32px;
+}
+
+.infoCardSubhead--info-card-departament-variante  {
+    color: red;
+    font-size: 32px;
+}
+
+

@@ -1,0 +1,14 @@
+
+{
+  
+    "rich-text#followus2":{
+      "title": "Featured text",
+      "props": {
+        "title": "titulo",
+        "text": "[FOLLOW US](https://blackmarkettoronto.com)",
+        "textAlignment": "CENTER",
+         "textPosition": "CENTER",
+        "blockClass": "boton-primary"
+        }
+      }
+    }

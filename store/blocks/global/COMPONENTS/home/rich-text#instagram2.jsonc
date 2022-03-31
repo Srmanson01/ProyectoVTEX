@@ -1,0 +1,13 @@
+{
+  
+    "rich-text#followers2": {
+     "title": "Featured text",
+     "props": {
+       "title": "titulo",
+       "text": "## @Publicbuttern Open Mon-Sat 11-8 & Sun 11-7 for in-store shopping , or shop premium Public Butter goods online! 416-535-4343",
+       "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+       "blockClass": "followers"
+       }
+     }
+   }
