@@ -1,7 +1,6 @@
-
-      {
+{
   
-        "rich-text#onsale": {
+ "rich-text#onsale": {
          "title": "Featured text",
          "props": {
            "title": "titulo",
@@ -10,5 +9,5 @@
             "textPosition": "CENTER",
            "blockClass": "home-featured"
            }
-         }
-       }
+    }
+}

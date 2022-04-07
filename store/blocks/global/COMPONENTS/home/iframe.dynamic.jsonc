@@ -1,10 +1,7 @@
-
-
+{  
 //Iframe video
 
-{
-    
-    "store.custom#locationPage":{
+  "store.custom#locationPage":{
     "children":[
       "iframe.dynamic-src"
     ]
@@ -18,7 +15,7 @@
       "allow": "geolocation"
     }
   },
-"slider-layout#product-shelf": {
+  "slider-layout#product-shelf": {
   "props": {
     "itemsPerPage": {
       "desktop": 5,
@@ -29,7 +26,7 @@
     "fullWidth": false,
     "blockClass": "shelf"
   }
-}
+  }
 }
 
 

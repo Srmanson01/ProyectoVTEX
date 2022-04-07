@@ -12,9 +12,21 @@
   text-decoration-thickness: auto;
   text-size-adjust: 100%;
   text-transform: uppercase;
-  white-space: nowrap;
+  white-space: nowrap;   
 
 
-    
 }
+
+.menuContainerNav {
+  margin: 20px;
+  
+
+}
+
+.menuItem{
+font-size: 0.875em;
+word-spacing: -0.2em;
+}
+
+
 

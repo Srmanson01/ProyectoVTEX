@@ -1,4 +1,4 @@
-
+//Banner final
 {
 
 "list-context.image-list#demostracion": {
@@ -18,7 +18,6 @@
       ]
     }
   },
-
   "slider-layout#demo-images": {
     "props": {
       "itemsPerPage": {

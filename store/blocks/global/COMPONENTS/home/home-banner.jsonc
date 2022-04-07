@@ -16,7 +16,6 @@
         "blockClass": "home-content"
       }
     },
-    
     ////// Products //////
     "flex-layout.row#banner": {
       "children": ["flex-layout.col#banner"],
@@ -27,7 +26,6 @@
     "flex-layout.col#banner": {
       "children": ["search-result-layout.customQuery#banner"]
     },
-
     "search-result-layout.customQuery#banner": {
       "blocks": ["search-result-layout.desktop#banner2"],
       "props": {

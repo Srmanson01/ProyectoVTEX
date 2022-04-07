@@ -1,6 +1,5 @@
 {
-  
-    "rich-text#followus": {
+  "rich-text#followus": {
      "title": "Featured text",
      "props": {
        "title": "titulo",
@@ -10,4 +9,4 @@
        "blockClass": "home-featured"
        }
      }
-   }
+}

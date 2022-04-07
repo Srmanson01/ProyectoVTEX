@@ -1,7 +1,6 @@
-
 {
   
-    "rich-text#viewall1":{
+  "rich-text#viewall1":{
       "title": "Featured text",
       "props": {
         "title": "titulo",
@@ -10,6 +9,6 @@
          "textPosition": "CENTER",
         "blockClass": "boton-primary"
         }
-      }
     }
+}
     

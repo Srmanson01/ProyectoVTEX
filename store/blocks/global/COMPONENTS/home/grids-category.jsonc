@@ -2,28 +2,26 @@
 "flex-layout.row#cards-container" : {
         "children" : ["flex-layout.col#cards-content"]
 },
-
 "flex-layout.col#cards-content" : {
-        "children" : ["flex-layout.row#info-card1","flex-layout.row#info-card2"]
+        "children" : ["flex-layout.row#info-card1","flex-layout.row#info-card2",        "flex-layout.row#info-card3"]
 },
 
+//Cart 1
 "flex-layout.row#info-card1" : {
     "children" : ["flex-layout.col#info-card1","flex-layout.col#info-card2","flex-layout.col#info-card3"]
 },
-
 "flex-layout.col#info-card1": {
     "children" : ["info-card#card1"],
     "props" : {
         "marginRight" : 5
     }
 },
-
 "info-card#card1": {
     "props": {
      "id": "info-card",
      "isFullModeStyle": true,
      "textPosition": "center",
-     "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+     "imageUrl": "'//cdn.shopify.com/s/files/1/0273/6285/2925/collections/new-for-summer-940479_1x1.png?v=1620745486'",
      "subhead":"prueba",
      "blockClass": "info-card-departament-variante",
      "callToActionMode": "none"
@@ -42,7 +40,7 @@
      "id": "info-card",
      "isFullModeStyle": true,
      "textPosition": "center",
-     "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+     "imageUrl": "'//cdn.shopify.com/s/files/1/0273/6285/2925/collections/accessories-967324_1x1.jpg?v=1605218464'",
      "subhead":"prueba",
      "blockClass": "info-card-departament",
      "callToActionMode": "none"
@@ -60,7 +58,7 @@
      "id": "info-card",
      "isFullModeStyle": true,
      "textPosition": "center",
-     "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+     "imageUrl": "//cdn.shopify.com/s/files/1/0273/6285/2925/files/IMG_3813_1x1.jpg?v=1612296433",
      "subhead":"prueba",
      "blockClass": "info-card-departament",
      "callToActionMode": "none"
@@ -72,7 +70,7 @@
 
 //Cart 2
    "flex-layout.row#info-card2" : {
-    "children" : ["flex-layout.col#info2-card1","flex-layout.col#info2-card2","flex-layout.col#info2-card3"]
+    "children" : ["flex-layout.col#info2-card1","flex-layout.col#info2-card2","flex-layout.col#info3-card3"]
 },
 "flex-layout.col#info2-card1": {
     "children" : ["info-card#card2-1"],
@@ -85,13 +83,13 @@
      "id": "info-card",
      "isFullModeStyle": true,
      "textPosition": "center",
-     "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+     "imageUrl": "",
      "subhead":"prueba",
      "blockClass": "info-card-departament-variante",
      "callToActionMode": "none"
     }
   
-},
+},              
 "flex-layout.col#info2-card2": {
     "children" : ["info-card#card2-2"],
     "props" : {
@@ -112,12 +110,74 @@
   
 },
 "flex-layout.col#info2-card3": {
-    "children" : ["info-card#card2-3"],
+    "children" : ["info-card#card3-3"],
     "props" : {
         "marginLeft" : 5
     }
 },
-"info-card#card2-3": {
+"info-card#card3-3": {
+    "props": {
+     "id": "info-card",
+     "isFullModeStyle": true,
+     "textPosition": "center",
+     "imageUrl": "",
+     "subhead":"prueba",
+     "blockClass": "info-card-departament",
+     "callToActionMode": "none"
+    }
+  
+   },
+
+
+
+//Cart 3
+"flex-layout.row#info-card3" : {
+    "children" : ["flex-layout.col#info3-card1","flex-layout.col#info3-card2","flex-layout.col#info3-card3"]
+},
+"flex-layout.col#info3-card1": {
+    "children" : ["info-card#card3-1"],
+    "props" : {
+        "marginRight" : 5
+    }
+},
+"info-card#card3-1": {
+    "props": {
+     "id": "info-card",
+     "isFullModeStyle": true,
+     "textPosition": "center",
+     "imageUrl": "",
+     "subhead":"prueba",
+     "blockClass": "info-card-departament-variante",
+     "callToActionMode": "none"
+    }
+  
+},    
+"flex-layout.col#info3-card2": {
+    "children" : ["info-card#card3-2"],
+    "props" : {
+        "marginRight" : 5,
+        "marginLeft" : 5
+    }
+},
+"info-card#card3-2": {
+    "props": {
+     "id": "info-card",
+     "isFullModeStyle": true,
+     "textPosition": "center",
+     "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+     "subhead":"prueba",
+     "blockClass": "info-card-departament",
+     "callToActionMode": "none"
+    }
+  
+},      
+"flex-layout.col#info3-card3": {
+    "children" : ["info-card#card3.1-3"],
+    "props" : {
+        "marginLeft" : 5
+    }
+},   
+"info-card#card3.1-3": {
     "props": {
      "id": "info-card",
      "isFullModeStyle": true,
@@ -129,4 +189,6 @@
     }
   
    }
+
 }
+

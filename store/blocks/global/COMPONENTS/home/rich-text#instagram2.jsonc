@@ -1,6 +1,5 @@
 {
-  
-    "rich-text#followers2": {
+  "rich-text#followers2": {
      "title": "Featured text",
      "props": {
        "title": "titulo",
@@ -9,5 +8,5 @@
         "textPosition": "CENTER",
        "blockClass": "followers"
        }
-     }
-   }
+    }
+}

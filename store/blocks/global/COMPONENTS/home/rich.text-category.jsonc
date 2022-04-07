@@ -1,7 +1,4 @@
 {
-  
-  
-
   "rich-text#shopbycategory": {
     "title": "Featured text",
     "props": {
@@ -12,7 +9,7 @@
       "blockClass": "home-featured"
       }
     }
-  }
+}
   
 
 

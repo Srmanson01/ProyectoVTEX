@@ -45,7 +45,6 @@
     "flex-layout.col#shelf2": {
       "children": ["search-result-layout.customQuery#home2"]
     },
-
     "search-result-layout.customQuery#home2": {
       "blocks": ["search-result-layout.desktop#home2"],
       "props": {

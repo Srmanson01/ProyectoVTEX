@@ -1,6 +1,4 @@
-
 {
-  
     "rich-text#followus2":{
       "title": "Featured text",
       "props": {
@@ -11,4 +9,4 @@
         "blockClass": "boton-primary"
         }
       }
-    }
+}

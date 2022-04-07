@@ -5,6 +5,7 @@
       "children": ["flex-layout.col#main-featured-products"],
       "props": {
         "blockClass": "main-container"
+        
       }
     },
     ////// flex shop Container //////
@@ -32,6 +33,7 @@
         "textAlignment": "CENTER",
          "textPosition": "CENTER",
         "blockClass": "text-deal"
+        
       }
     },
     "rich-text#featured-products-secundary":{
@@ -44,9 +46,6 @@
         "blockClass": "boton-primary"
       }
     },
-
-
-
     ////// Products //////
     "flex-layout.row#shelf": {
       "children": ["flex-layout.col#shelf"],
@@ -65,6 +64,7 @@
           "maxItemsPerPage": 16,
           "itemsPerPage": 4,
           "simulationBehavior": "skip"
+          
         }
       }
     },

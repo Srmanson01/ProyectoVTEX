@@ -1,6 +1,5 @@
 {
-  
-    "rich-text#followers": {
+  "rich-text#followers": {
      "title": "Featured text",
      "props": {
        "title": "titulo",
@@ -10,4 +9,4 @@
        "blockClass": "followers"
        }
      }
-   }
+}

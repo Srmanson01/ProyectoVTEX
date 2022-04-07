@@ -27,7 +27,6 @@
     "flex-layout.col#shelf3": {
       "children": ["search-result-layout.customQuery#home3"]
     },
-
     "search-result-layout.customQuery#home3": {
       "blocks": ["search-result-layout.desktop#home3"],
       "props": {
