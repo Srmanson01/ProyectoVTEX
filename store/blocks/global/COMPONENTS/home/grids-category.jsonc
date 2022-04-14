@@ -21,8 +21,8 @@
      "id": "info-card",
      "isFullModeStyle": true,
      "textPosition": "center",
-     "imageUrl": "'//cdn.shopify.com/s/files/1/0273/6285/2925/collections/new-for-summer-940479_1x1.png?v=1620745486'",
-     "subhead":"prueba",
+     "imageUrl": "//cdn.shopify.com/s/files/1/0273/6285/2925/collections/new-for-summer-940479_360x.png?v=1620745486",
+     "subhead":"NEW FOR  SPRING",
      "blockClass": "info-card-departament-variante",
      "callToActionMode": "none"
     }
@@ -40,8 +40,8 @@
      "id": "info-card",
      "isFullModeStyle": true,
      "textPosition": "center",
-     "imageUrl": "'//cdn.shopify.com/s/files/1/0273/6285/2925/collections/accessories-967324_1x1.jpg?v=1605218464'",
-     "subhead":"prueba",
+     "imageUrl": "https://cdn.shopify.com/s/files/1/0273/6285/2925/collections/vintage-t-shirts-489856.jpg?v=1603148453",
+     "subhead":"TSHIRTS",
      "blockClass": "info-card-departament",
      "callToActionMode": "none"
     }
@@ -58,8 +58,8 @@
      "id": "info-card",
      "isFullModeStyle": true,
      "textPosition": "center",
-     "imageUrl": "//cdn.shopify.com/s/files/1/0273/6285/2925/files/IMG_3813_1x1.jpg?v=1612296433",
-     "subhead":"prueba",
+     "imageUrl": "//cdn.shopify.com/s/files/1/0273/6285/2925/collections/accessories-967324.jpg?v=1605218464",
+     "subhead":"ACCESORIES",
      "blockClass": "info-card-departament",
      "callToActionMode": "none"
     }
@@ -70,7 +70,7 @@
 
 //Cart 2
    "flex-layout.row#info-card2" : {
-    "children" : ["flex-layout.col#info2-card1","flex-layout.col#info2-card2","flex-layout.col#info3-card3"]
+    "children" : ["flex-layout.col#info2-card1","flex-layout.col#info2-card2","flex-layout.col#info2-card3"]
 },
 "flex-layout.col#info2-card1": {
     "children" : ["info-card#card2-1"],
@@ -83,8 +83,8 @@
      "id": "info-card",
      "isFullModeStyle": true,
      "textPosition": "center",
-     "imageUrl": "",
-     "subhead":"prueba",
+     "imageUrl": "https://cdn.shopify.com/s/files/1/0273/6285/2925/files/IMG_3813_360x.jpg?v=1612296433",
+     "subhead":"PUBLIC BUTTER PREMIUM",
      "blockClass": "info-card-departament-variante",
      "callToActionMode": "none"
     }
@@ -102,8 +102,8 @@
      "id": "info-card",
      "isFullModeStyle": true,
      "textPosition": "center",
-     "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-     "subhead":"prueba",
+     "imageUrl": "//cdn.shopify.com/s/files/1/0273/6285/2925/files/mens_vintage.jpg?v=1612296359",
+     "subhead":"MEN'S VINTAGE",
      "blockClass": "info-card-departament",
      "callToActionMode": "none"
     }
@@ -120,8 +120,8 @@
      "id": "info-card",
      "isFullModeStyle": true,
      "textPosition": "center",
-     "imageUrl": "",
-     "subhead":"prueba",
+     "imageUrl": "//cdn.shopify.com/s/files/1/0273/6285/2925/files/womens_vintage.jpg?v=1612296387",
+     "subhead":"WOMEN'S VINTAGE",
      "blockClass": "info-card-departament",
      "callToActionMode": "none"
     }
@@ -145,8 +145,8 @@
      "id": "info-card",
      "isFullModeStyle": true,
      "textPosition": "center",
-     "imageUrl": "",
-     "subhead":"prueba",
+     "imageUrl": "//cdn.shopify.com/s/files/1/0273/6285/2925/files/light_blue_vintage_sweats.png?v=1620819709",
+     "subhead":"SWEATS",
      "blockClass": "info-card-departament-variante",
      "callToActionMode": "none"
     }
@@ -164,8 +164,8 @@
      "id": "info-card",
      "isFullModeStyle": true,
      "textPosition": "center",
-     "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-     "subhead":"prueba",
+     "imageUrl": "//cdn.shopify.com/s/files/1/0273/6285/2925/files/vintage_wholesale.jpg?v=1612296448",
+     "subhead":"WHOLESALE INQUIRIES",
      "blockClass": "info-card-departament",
      "callToActionMode": "none"
     }
@@ -182,8 +182,8 @@
      "id": "info-card",
      "isFullModeStyle": true,
      "textPosition": "center",
-     "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-     "subhead":"prueba",
+     "imageUrl": "//cdn.shopify.com/s/files/1/0273/6285/2925/files/Unisex_Vintage_Jackets.jpg?v=1612296479",
+     "subhead":"SPORTSWEAR",
      "blockClass": "info-card-departament",
      "callToActionMode": "none"
     }
