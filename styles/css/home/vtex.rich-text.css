@@ -11,7 +11,17 @@
 .headingLevel2--home-featured {
     color: rgb(91, 87, 87);
     font-size:44px;
-
-
 }
+
+.rich-text#1{
+
+    color:black;
+    background-color: chartreuse;
+    font-weight:bold;
+}
+
+.rich-text#tittle {
+    text-transform: uppercase;
+}
+
 

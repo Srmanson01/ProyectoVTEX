@@ -2,7 +2,6 @@
   "store.home": {
     "blocks": [
       "rich-text",
-
       "rich-text#featured-products-secundary",
       "iframe.dynamic-src",
       "flex-layout.row#main-featured-products",
@@ -22,14 +21,14 @@
       "rich-text#followus2",
       "rich-text#followers2",
       "flex-layout.row#main-featured-banner2",
-      "list-context.image-list#demostracion"
-      
- 
-      
+      "list-context.image-list#demostracion",
+      "flex-layout.row#homepage",
+      "newsletter",
+      "list-context.image-list#carrousel",
 
+     
 
-      
-
+     
     ]
   },
   "slider-layout#demo-images": {

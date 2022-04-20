@@ -4,15 +4,24 @@
         "orientation": "vertical"
       },
       "children": [
-        "menu-item#news",
-        "menu-item#blackfriday",
-        "menu-item#sale",
-        "menu-item#personalization"
+        "menu-item#quicklinks",
+        "menu-item#allproducts",
+        "menu-item#vintagesizingguide",
+        "menu-item#vintageconditiongguide",
+        "menu-item#faq",
+        "menu-item#contactuse",
+        "menu-item#aboutuse",
+        "menu-item#privacypolicy",
+        "menu-item#refundpolicy",
+        "menu-item#shippingpolicy",
+        "menu-item#termsofservices",
+        "menu-item#accessibilitypolicy"
+
       ]
     },
-    "menu-item#news": {
+    "menu-item#quicklinks": {
       "props": {
-        "id": "menu-item-news",
+        "id": "menu-item#quicklinks",
         "type": "custom",
         "iconId": null,
         "highlight": false,
@@ -20,14 +29,14 @@
           "type": "internal",
           "href": "#",
           "noFollow": false,
-          "tagTitle": "News",
-          "text": "News"
+          "tagTitle": "Quick links",
+          "text": "Quick links"
         }
       }
     },
-    "menu-item#blackfriday": {
+    "menu-item#allproducts": {
       "props": {
-        "id": "menu-item-black-friday",
+        "id": "menu-item#allproducts",
         "type": "custom",
         "iconId": null,
         "highlight": false,
@@ -35,14 +44,14 @@
           "type": "internal",
           "href": "#",
           "noFollow": false,
-          "tagTitle": "BlackFriday",
-          "text": "Black Friday"
+          "tagTitle": "All products",
+          "text": "All products"
         }
       }
     },
-    "menu-item#sale": {
+    "menu-item#vintagesizingguide":{
       "props": {
-        "id": "menu-item-sale",
+        "id": "menu-item#vintagesizingguide",
         "type": "custom",
         "iconId": null,
         "highlight": false,
@@ -50,14 +59,14 @@
           "type": "internal",
           "href": "#",
           "noFollow": false,
-          "tagTitle": "Sale",
-          "text": "Sale"
+          "tagTitle": "vintage sizing guide",
+          "text": "vintage sizing guide"
         }
       }
     },
-    "menu-item#personalization": {
+    "menu-item#vintageconditiongguide":{
       "props": {
-        "id": "menu-item-personalization",
+        "id": "menu-item#vintageconditiongguide",
         "type": "custom",
         "iconId": null,
         "highlight": false,
@@ -65,12 +74,139 @@
           "type": "internal",
           "href": "#",
           "noFollow": false,
-          "tagTitle": "Personalization",
-          "text": "Personalization"
+          "tagTitle": "vintage condition guide",
+          "text": "vintage condition guide"
         }
       }
     },
+    "menu-item#faq": {
+      "props": {
+        "id": "menu-item#faq",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "faq",
+          "text": "faq"
+        }
+      }
+    },
+   "menu-item#contactuse": {
+      "props": {
+        "id": "menu-item#contactuse",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "contact use",
+          "text": "contact use"
+        }
+      }
+    },
+    "menu-item#aboutuse": {
+      "props": {
+        "id": "menu-item#aboutuse",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "about use",
+          "text": "about use"
+        }
+      }
+    }, 
+    "menu-item#privacypolicy": {
+      "props": {
+        "id": "menu-item#aboutuse",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "privacy policy",
+          "text": "privacy policy"
+        }
+      }
+    },
+    "menu-item#refundpolicy": {
+      "props": {
+        "id": "menu-item#refundpolicy",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "refund policy",
+          "text": "refund policy"
+        }
+      }
+    },
+    "menu-item#shippingpolicy": {
+      "props": {
+        "id": "menu-item#shippingpolicy",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "shipping policy",
+          "text": "shipping policy"
+        }
+      }
+    },
+    "menu-item#termsofservices": {
+      "props": {
+        "id": "menu-item#termsofservices",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "terms of services",
+          "text": "terms of services"
+        }
+      }
+    },
+    "menu-item#accessibilitypolicy": {
+      "props": {
+        "id": "menu-item#accessibilitypolicy",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "accessibility policy",
+          "text": "accessibility policy"
+        }
+      }
+    },
+
   
+
+
+
+
+
+    
     "vtex.menu@2.x:menu#footer-decoration": {
       "props": {
         "orientation": "vertical"
@@ -194,9 +330,8 @@
         "orientation": "vertical"
       },
       "children": [
-        "menu-item#clothing",
-        "menu-item#shorts",
-        "menu-item#tank-tops",
+        "menu-item#tank-contactuse",
+        "menu-item#blackmarket",
         "menu-item#shirts",
         "menu-item#sweatshirt",
         "menu-item#cropped"
@@ -239,8 +374,8 @@
         "orientation": "vertical"
       },
       "children": [
-        "menu-item#shorts",
-        "menu-item#tank-tops",
+        "menu-item#blackmarket",
+        "menu-item#tank-contactuse",
         "menu-item#shirts",
         "menu-item#sweatshirt",
         "menu-item#cropped"
@@ -295,34 +430,34 @@
       ]
     },
   
-    "menu-item#clothing": {
+    "menu-item#blackmarket": {
       "props": {
-        "id": "menu-item-category-clothing",
+        "id": "menu-item#blackmarket",
         "type": "custom",
         "iconId": null,
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "/clothing/d",
+          "href": "/Black Market Vintage Clothing/d",
           "noFollow": true,
-          "tagTitle": "Clothing",
-          "text": "Clothing"
+          "tagTitle": "Black Market Vintage Clothing ",
+          "text": "Black Market Vintage Clothing "
         }
       }
     },
   
-    "menu-item#shorts": {
+    "menu-item#tank-contactuse": {
       "props": {
-        "id": "menu-item-shorts",
+        "id": "menu-item#tank-contactuse",
         "type": "custom",
         "iconId": null,
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "/clothing/shorts",
+          "href": "/clothing/contact use",
           "noFollow": false,
-          "tagTitle": "Shorts",
-          "text": "Shorts"
+          "tagTitle": "contact use",
+          "text": "contact use"
         }
       }
     },

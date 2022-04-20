@@ -1,0 +1,71 @@
+{
+
+    "flex-layout.row#homepage":{
+        "children": [
+      "flex-layout.col#homepage-section"
+    ],
+    "props":{
+        "blockClass": "homepage"
+    }
+},
+"flex-layout.col#homepage-section":{
+    "children": [
+        "flex-layout.row#tittle",
+        "flex-layout.row#homepagetext"
+      ],
+      "props":{
+        "horizontalAlign":"center",
+        "blockClass":""
+      }
+},
+
+"flex-layout.row#tittle":{
+"children": [
+    "rich-text#tittle"
+]
+},
+"rich-text#tittle":{
+    "props": {
+        "text":"What our customer are saying",
+        "textColor": "c-on-emphasis"
+    }
+},
+
+  "flex-layout.row#homepagetext": {
+    "children": [
+
+      "flex-layout.col#texto1",
+      "flex-layout.col#texto2",
+      "flex-layout.col#texto3"
+    ]
+  },
+  
+  "flex-layout.col#texto1": {
+    "children": ["rich-text#1"]
+  },
+  "rich-text#1": {
+      "props":{
+          "text": "Very cool vintage shop with lots of modern goods that have vintage stylings. Great selection. Great prices  - Dan." ,
+          "textColor": "c-on-emphasis"
+      }
+  },
+  "flex-layout.col#texto2": {
+    "children": ["rich-text#2"]
+  },
+  "rich-text#2": {
+    "props":{
+        "text": "I didn't expect so many vintage pieces and especially for so cheap! - Amanda",
+        "textColor": "c-on-emphasis"
+
+    }
+},
+  "flex-layout.col#texto3": {
+    "children": ["rich-text#3"]
+  },
+  "rich-text#3": {
+    "props":{
+        "text": "BEST VINTAGE STORE EVER! - Kaitlyn",
+        "textColor": "c-on-emphasis"
+    }
+}
+}
