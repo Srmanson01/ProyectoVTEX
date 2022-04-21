@@ -3,7 +3,8 @@
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
   "header.full": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    "blocks": ["header-layout.desktop", "header-layout.mobile",
+      "search-bar#header_search"]
   },
   "header-layout.desktop": {
     "children": [
@@ -86,6 +87,16 @@
   },
   "drawer": {
     "children": []
+  },
+
+  "search-bar#header_search":{
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true
+    }
   }
+
+  
+  
 }
   
