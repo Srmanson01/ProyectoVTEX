@@ -26,23 +26,9 @@
       "newsletter",
       "list-context.image-list#carrousel"
 
-     
-
-     
     ]
-  },
-  "slider-layout#demo-images": {
-    "props": {
-      "itemsPerPage": {
-        "desktop": 1,
-        "tablet": 1,
-        "phone": 1
-      },
-      "infinite": false,
-      "showNavigationArrows": false
-    }
-  
   }
+
     
 }
 

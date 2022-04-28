@@ -13,6 +13,107 @@
     font-size:44px;
 }
 
+.paragraph--tittle-info {
+    font-size: 1.9em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    opacity: .75;
+    padding-bottom: 16px;
+    margin-bottom: 32px;
+    position: relative;
+    box-sizing: border-box;
+    font-family :Helvetica, "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+    font-style :normal;
+    font-weight: 900 ;
+    color: var(--text-dark);
+
+
+
+}
+
+
+
+.heading--home-featured {
+    background-color:rgb(255, 255, 255);
+    font-size:36px;
+}
+
+.paragraph--contact{
+
+    letter-spacing: 1px;
+    font-size: calc(11.1392px*var(---font-adjust-accent));
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    font-family :Helvetica, "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+    font-size :17.4822px;
+    font-weight :400;
+    height: auto;
+    line-height: 27.9716px;
+    bottom: 40px;
+
+
+
+
+}
+
+.paragraph--publictext {
+    font-size: 22px;
+    color:white;
+}
+
+.paragraph--footer {   
+align-items: center;
+font-Size:10px;
+color:white;
+}
+
+
+.paragraph--text-primary {
+    font-size:18px;
+    box-sizing: border-box;
+    color :rgba(255, 255, 255, 0.9);
+    display :block;
+    font-family :Helvetica, "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+    font-weight :400;
+    text-align: center;
+}
+
+.paragraph--text-secundary {
+    font-size:18px;
+    box-sizing: border-box;
+    color :rgba(255, 255, 255, 0.9);
+    display :block;
+    font-family :Helvetica, "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+    font-weight :400;
+    text-align: center;
+}
+
+.paragraph--text-terciary{
+    font-size:17px;
+    box-sizing: border-box;
+    color :rgba(255, 255, 255, 0.9);
+    display :block;
+    font-family :Helvetica, "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+    font-weight :400;
+    text-align: center;
+}
+
+.paragraph--publictext {
+    font-size: 17px;
+}
+
+.wrapper--contact {
+    box-sizing: border-box;
+    margin-top:27px;
+}
+
+.paragraph--followers {
+    color:rgb(255, 0, 0);
+    font-Family:Helvetica, 'Helvetica Neue', Arial, 'Lucida Grande', sans-serif;
+}
+
+.paragraph--
 
 
 

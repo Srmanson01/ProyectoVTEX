@@ -24,22 +24,12 @@
     display: flex;
     position: relative;
     top: -29px; 
-    left: 10px;
-    
-
-    
+    left: 10px;   
 }
 
 .notificationContent {
     background-color: #c6dae5;
-
-
- 
-  
 }
-
-
-    
 
 
 .notificationBarInner {
@@ -59,8 +49,16 @@
     height :auto;
     line-height :30px;
 
-
 }
+
+
+.newsletter {
+    background-color : #ff008c;
+}
+
+
+
+
 
 
     

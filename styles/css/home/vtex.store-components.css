@@ -46,17 +46,14 @@
     font-weight :bold;
 }
 
-.newsletter {
-    background-color:rgb(255, 255, 255);
-    font-weight :bold;
-    padding: 140px;
-}
+
 
 
 
 .label {
-    color: rgb(36,36,36);
-    font-size :32.8844px;
-    font-weight: 900;
+    background-color:rgb(46, 52, 56);
 }
+
+
+
 

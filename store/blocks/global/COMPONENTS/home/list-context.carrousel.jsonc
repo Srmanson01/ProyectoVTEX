@@ -5,12 +5,11 @@
  "list-context.image-list#carrousel": {
     "children": ["slider-layout#demo-images"],
     "props": {
-      "height": 720,
       "width": 120,
       "images": [
         {
-          "image": "https://cdn.shopify.com/s/files/1/0273/6285/2925/files/Shop_Men_s_Vintage_1512x.jpg?v=1610705088",
-          "mobileImage": "https://cdn.shopify.com/s/files/1/0273/6285/2925/files/Shop_Men_s_Vintage_1512x.jpg?v=1610705088"
+          "image": "//cdn.shopify.com/s/files/1/0273/6285/2925/files/Toronto_Vintage_Women_s_clothing_180x.jpg?v=1610705088 180w 271h",
+          "mobileImage": "//cdn.shopify.com/s/files/1/0273/6285/2925/files/Toronto_Vintage_Women_s_clothing_180x.jpg?v=1610705088 180w 271h"
         },
         {
           "image": "//cdn.shopify.com/s/files/1/0273/6285/2925/files/Shop_Men_s_Vintage_180x.jpg?v=1610705088 180w 265h",
@@ -27,8 +26,13 @@
         "phone": 1
       },
       "infinite": true,
-      "showNavigationArrows": "desktopOnly",
-      "blockClass": "carousel"
+      "showNavigationArrows": true,
+      "showPaginationDots": "never",
+      "blockClass": "home-banner",
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": false
     }
   }
+}
 }

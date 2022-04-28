@@ -27,7 +27,8 @@
 "rich-text#tittle":{
     "props": {
         "text":"What our customer are saying",
-        "textColor": "c-on-emphasis"
+        "textColor": "c-on-emphasis",
+        "blockClass": "tittle-info"
     }
 },
 
@@ -45,8 +46,9 @@
   },
   "rich-text#1": {
       "props":{
-          "text": "Very cool vintage shop with lots of modern goods that have vintage stylings. Great selection. Great prices  - Dan." ,
-          "textColor": "c-on-emphasis"
+          "text": "'Very cool vintage shop with lots of modern goods that have vintage stylings. Great selection. Great prices'\n  \n-Dan" ,
+          "textColor": "c-on-emphasis",
+          "blockClass": "text-primary"
       }
   },
   "flex-layout.col#texto2": {
@@ -54,8 +56,10 @@
   },
   "rich-text#2": {
     "props":{
-        "text": "I didn't expect so many vintage pieces and especially for so cheap! - Amanda",
-        "textColor": "c-on-emphasis"
+        "text": "'I didn't expect so many vintage pieces and especially for so cheap!'  \n-Amanda",
+        "textColor": "c-on-emphasis",
+        "blockClass": "text-secundary"
+        
 
     }
 },
@@ -64,8 +68,9 @@
   },
   "rich-text#3": {
     "props":{
-        "text": "BEST VINTAGE STORE EVER! - Kaitlyn",
-        "textColor": "c-on-emphasis"
+        "text": "BEST VINTAGE STORE EVER! \n-Kaitlyn",
+        "textColor": "c-on-emphasis",
+        "blockClass": "text-terciary"
     }
 }
 }

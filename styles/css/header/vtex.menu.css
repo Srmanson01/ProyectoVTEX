@@ -19,7 +19,6 @@
 
 .menuContainerNav {
   margin: 20px;
-  
 
 }
 
@@ -27,6 +26,13 @@
 font-size: 0.875em;
 word-spacing: -0.2em;
 }
+
+.styledLinkContent--footer-categories {
+  color:white;
+}
+
+
+
 
 
 
